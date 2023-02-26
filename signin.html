@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="styles2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-wrapper">
+        <h1 class="form-title">Sign In</h1>
+        <form>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text"  class="form-control"  id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password"  class="form-control"  id="password" name="password" required>
+          </div>
+<div class="form-group">
+          <button type="submit" onClick="myFun()" class="form-btn">Sign In</button>
+</div>
+<script>
+function myFun(){
+window.location.href="landing.html";
+}
+</script>
+        </form>
+        <p class="form-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+      </div>
+    </div>
+  </body>
+</html>
